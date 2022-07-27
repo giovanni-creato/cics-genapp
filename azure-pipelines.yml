@@ -17,3 +17,20 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+- task: CmdLine@2
+  inputs:
+    script: |
+      echo Write your commands here
+      
+      echo Hello world
+
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'SonarCloud'
+    organization: 'giovanni-creato'
+    scannerMode: 'CLI'
+    configMode: 'manual'
+    cliProjectKey: 'giovanni-creato_cics-genapp'
+    cliProjectName: 'cics-genapp'
+    cliSources: '.'
