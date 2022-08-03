@@ -30,9 +30,8 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      echo Write your commands here
-      
-      echo Hello world
+      npm install -g @zowe/cli@zowe-v2-lts
+      zowe --version
 
 - task: SonarCloudPrepare@1
   inputs:
