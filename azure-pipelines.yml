@@ -23,6 +23,8 @@ steps:
     pwd
     echo "ls"
     ls
+    ls base
+    ls base/src
   displayName: 'My personal test'
 
 - task: CmdLine@2
