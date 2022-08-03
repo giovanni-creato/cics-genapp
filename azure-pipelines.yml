@@ -18,6 +18,13 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
+- script: |
+    echo "pwd"
+    pwd
+    echo "ls"
+    ls
+  displayName: 'My personal test'
+
 - task: CmdLine@2
   inputs:
     script: |
