@@ -19,7 +19,8 @@
        WORKING-STORAGE SECTION.
 
       *----------------------------------------------------------------*
-      * Common defintions                                              *
+      * Common defintions     
+	  * Git test comment
       *----------------------------------------------------------------*
       * Run time (debug) infomation for this invocation
         01  WS-HEADER.
