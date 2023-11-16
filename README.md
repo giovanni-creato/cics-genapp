@@ -1,5 +1,6 @@
 # General insurance application (GenApp) for IBM CICS TS
-# Edited by Giovanni
+# Edited by Giovanni 
+# Vitality Training Giovanni
 
 This GitHub repository contains the code originally distributed by the
 [IBM SupportPac CB12](https://www.ibm.com/support/pages/cb12-general-insurance-application-genapp-ibm-cics-ts).
